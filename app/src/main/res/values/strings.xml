@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Onboarding_hw_5_5</string>
+    <string name="main">Main</string>
+    <string name="onboarding">Onboarding</string>
+    <string name="skip">Skip</string>
+    <string name="top">Top</string>
+    <string name="bottom">Bottom</string>
+    <string name="start">Start</string>
+</resources>
