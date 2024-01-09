@@ -1,12 +1,12 @@
-package com.example.onboarding_hw_5_5.ui.onboarding
+package com.example.onboarding_hw_5_5.onboarding
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.core.view.isVisible
 import androidx.recyclerview.widget.RecyclerView.Adapter
 import androidx.recyclerview.widget.RecyclerView.ViewHolder
-import com.example.onboarding_hw_5_5.ui.model.Onboarding
 import com.example.onboarding_hw_5_5.databinding.ItemOnboardingBinding
+import com.example.onboarding_hw_5_5.module.Onboarding
 
 class OnboardingAdapter(private val onClick: () -> Unit) :
     Adapter<OnboardingAdapter.OnboardingViewHolder>() {
