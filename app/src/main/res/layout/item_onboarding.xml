@@ -17,15 +17,16 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <ImageView
-        android:id="@+id/ivBoard"
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/ivOnboard"
         android:layout_width="300dp"
         android:layout_height="300dp"
         android:layout_marginTop="32dp"
-        android:src="@color/gray"
+        android:background="@color/gray"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btnSkip" />
+        app:layout_constraintTop_toBottomOf="@+id/btnSkip"
+        app:lottie_loop="true" />
 
     <TextView
         android:id="@+id/topText"
@@ -37,7 +38,7 @@
         android:textSize="22sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/ivBoard" />
+        app:layout_constraintTop_toBottomOf="@id/ivOnboard" />
 
     <TextView
         android:id="@+id/bottomText"
